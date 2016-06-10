@@ -1,5 +1,5 @@
 $(function() {
-	var gameover = new Audio("/audio/gameover.wav")
+	var gameover = new Audio("audio/gameover.wav")
 	var pieslice = $('.pieslice');
 	var simonArray = [];
 	var userArray = [];
