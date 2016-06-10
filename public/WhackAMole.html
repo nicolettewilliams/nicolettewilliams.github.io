@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Whack-A-Squirrel</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Bangers|Orbitron|Poiret+One' rel='stylesheet' type='text/css'>
+    <!-- my css stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/whack_a_mole.css">
+</head>
+<body>
+
+    <!-- all the squirrel divs -->
+    <div class="container">
+
+        <div class="row">
+            <div class="col-xs-4 moleholes"><img src="img/bugeyed1.png" data-moleid="1" class="molehole1 img"></div>
+            <div class="col-xs-4 moleholes"><img src="img/bugeyed2.png" data-moleid="2" class="molehole2 img"></div>
+            <div class="col-xs-4 moleholes"><img src="img/bugeyed3.png" data-moleid="3" class="molehole3 img"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4 moleholes"><img src="img/bugeyed4.png" data-moleid="4" class="molehole4 img"></div>
+            <!-- div with score and nut images in it -->
+            <div class="col-xs-4 middleDiv" id="gathered"><div></div></div>
+            <div class="col-xs-4 moleholes"><img src="img/bugeyed5.png" data-moleid="5" class="molehole5 img"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-4 moleholes"><img src="img/bugeyed6.png" data-moleid="6" class="molehole6 img"></div>
+            <!-- div with countdown in it -->
+            <div class="col-xs-4 moleholes"><div id="countDown"></div><img src="/img/bugeyed7.png" data-moleid="7" class="molehole7 img"></div>
+            <div class="col-xs-4 moleholes"><img src="img/bugeyed8.png" data-moleid="8" class="molehole8 img"></div>
+        </div>
+
+    </div>
+    
+    <!-- start button -->
+    <button class="btn btn-info start">START!</button>
+
+    <!-- modal -->
+    <div class="modal fade" tabindex="-1" role="dialog" id="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h2 class="modal-title">GAME OVER!</h2>
+                </div>
+                <div class="modal-body">
+                </div>
+                <div class="modal-footer">
+                     <button type="button" class="btn btn-danger btn-lg" id="yes">YES</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery -->
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!-- my jquery -->
+    <script src="/js/whack_a_mole.js"></script>
+    <!-- bootstrap jquery -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
