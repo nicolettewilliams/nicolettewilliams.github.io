@@ -253,11 +253,11 @@ body #jpreBar {
 }
 
 .btn-primary {
-  background-color: #ffae3f;
-  border-color: #ffae3f;
+  background-color: green;
+  border-color: green;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #ffae3f;
+  background-color: green;
   border-color: #ffa325;
 }
 .btn-primary:active:focus, .btn-primary.active:focus {
@@ -268,7 +268,7 @@ body #jpreBar {
 .btn-primary.disabled,
 .btn-primary[disabled] {
   background-color: #ffc472;
-  border-color: #ffae3f;
+  border-color: green;
 }
 .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active,
 .btn-primary[disabled]:hover,
@@ -276,14 +276,14 @@ body #jpreBar {
 .btn-primary[disabled]:active,
 .btn-primary[disabled].active {
   background-color: #ffc472;
-  border-color: #ffae3f;
+  border-color: green;
 }
 
 /* --------------------- */
 /* LINKS
 /* --------------------- */
 a {
-  color: #ffae3f;
+  color: green;
 }
 a:hover, a:focus {
   color: #ffc472;
@@ -314,7 +314,7 @@ a:hover, a:focus {
 }
 .section-heading h2 {
   font-size: 3em;
-  color: #ffae3f;
+  color: green;
 }
 .section-heading p {
   font-size: 1.5em;
@@ -5533,7 +5533,7 @@ img.mfp-img {
   z-index: 2;
   font-family: "Dosis", sans-serif;
   font-size: 2em;
-  color: #ffae3f;
+  color: green;
 }
 .chart .percent:after {
   margin-left: 0.1em;
@@ -5547,7 +5547,7 @@ img.mfp-img {
   position: absolute;
   top: 0;
   font-size: 5em;
-  color: #ffae3f;
+  color: green;
 }
 .service-item .service-text {
   margin-left: 100px;
@@ -5561,7 +5561,7 @@ img.mfp-img {
   margin-bottom: 0;
 }
 .service-item .service-text a.read-more {
-  color: #ffae3f;
+  color: green;
 }
 .service-item .service-text a.read-more span {
   -moz-transition-property: all;
@@ -5680,7 +5680,7 @@ img.mfp-img {
 .work-item-filters li a:hover, .work-item-filters li a.active {
   text-decoration: none;
   outline: none;
-  background-color: #ffae3f;
+  background-color: green;
   color: #fff;
 }
 
@@ -6139,61 +6139,4 @@ img.mfp-img {
 }
 .navbar-brand img{
   padding-top: 10px;
-}
-
-/* Skin: Deep Sky Blue */
-a {
-  color: #708090;
-}
-a:hover, a:focus {
-  color: #5e6c79;
-}
-
-.btn-primary {
-  background-color: #708090;
-  border-color: #708090;
-}
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
-  background-color: #708090;
-  border-color: #657382;
-}
-.btn-primary:active:focus, .btn-primary.active:focus {
-  background-color: #657382;
-  border-color: #4e5a65;
-}
-
-.section-heading h2 {
-  color: #708090;
-}
-
-.service-item .service-icon,
-.service-item .service-text a.read-more {
-  color: #708090;
-}
-
-.work-item-filters li a:hover,
-.work-item-filters li a.active {
-  background-color: #708090;
-}
-
-.work-item-list .image-overlay {
-  background-color: rgba(82, 82, 82, 0.9);
-}
-
-.team-member .team-name {
-  background-color: #708090;
-}
-
-.twitter-stream {
-  background-color: #5a6673;
-}
-.twitter-stream .twitter-icon {
-  background-color: #4e5a65;
-}
-.twitter-stream .twitter-icon i {
-  color: #708090;
-}
-
-.chart .percent {
-  color: #708090;
 }
