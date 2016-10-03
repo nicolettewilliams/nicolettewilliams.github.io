@@ -14,18 +14,18 @@
 		<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script type="text/javascript">
-		$('.dropdown-toggle').dropdown();
-
-		$('#iconified').on('keyup', function() {
-		    var input = $(this);
-		    if(input.val().length === 0) {
-		        input.addClass('empty');
-		    } else {
-		        input.removeClass('empty');
-		    }
-		});
 
 		$(document).ready(function(){
+			$('.dropdown-toggle').dropdown();
+
+			$('#iconified').on('keyup', function() {
+			    var input = $(this);
+			    if(input.val().length === 0) {
+			        input.addClass('empty');
+			    } else {
+			        input.removeClass('empty');
+			    }
+			});
 	        var newHeight = $("#bigPicRow").height() - $('#newbImg').height();
 
 	        $(".pink").height(newHeight);
