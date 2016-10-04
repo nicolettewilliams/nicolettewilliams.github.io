@@ -203,6 +203,7 @@ input.empty:focus{
 	}
 	.mobileInsetRow{
 		display: block;
+		height: 400px;
 	}
 }
 .w100{
