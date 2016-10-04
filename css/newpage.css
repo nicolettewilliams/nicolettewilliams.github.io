@@ -181,7 +181,7 @@ input.empty:focus{
 		display: none;
 	}
 	.home{
-		padding: 0px;
+		padding: 100px 0 0 0 !important;
 	}
 }
 /*=================================================*/
