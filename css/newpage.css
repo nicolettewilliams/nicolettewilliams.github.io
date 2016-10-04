@@ -192,6 +192,8 @@ input.empty:focus{
 	.waterfall-img{
 		display: none;
 	}
+}
+@media (max-width: 1200px){
 	.home{
 		padding: 100px 0 0 0 !important;
 		height: 1400px;
