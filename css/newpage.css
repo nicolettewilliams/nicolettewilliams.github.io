@@ -194,7 +194,7 @@ input.empty:focus{
 	}
 	.home{
 		padding: 100px 0 0 0 !important;
-		height: 800px;
+		height: 100%;
 	}
 	.owlImage{
 		height: 400px;
