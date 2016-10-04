@@ -170,6 +170,17 @@ input.empty:focus{
 .mobileNav{
 	display: none;
 }
+/*=================================================*/
+.owlImage{
+	background-image: url(../img/coloringpages.jpg);
+	background-size: 100% 100%;
+}
+.insetrow{
+	height: 500px;
+}
+.mobileInsetRow{
+	display: none;
+}
 @media (max-width: 1000px){
 	.desktopNav{
 		display: none;
@@ -183,8 +194,13 @@ input.empty:focus{
 	.home{
 		padding: 100px 0 0 0 !important;
 	}
+	.insetrow{
+		display: none;
+	}
+	.mobileInsetRow{
+		display: inline-block;
+	}
 }
-/*=================================================*/
 .w100{
 	width: 100%;
 }
@@ -206,9 +222,6 @@ input.empty:focus{
 }
 .right{
 	text-align: right;
-}
-.insetrow{
-	height: 500px;
 }
 .f16{
 	font-size: 16px;
