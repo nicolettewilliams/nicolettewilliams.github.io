@@ -869,6 +869,13 @@ pre {
 	background-image: url(../img/featuredproduct.jpg);
 	background-size: 100% 100%;
 }
+.row600{
+	height: 600px;
+}
+.newb, .animal{
+	width: 100%;
+	height: 500px
+}
 @media (max-width: 767px){
 	.orange, .pink{
 		padding: 20px 0;
