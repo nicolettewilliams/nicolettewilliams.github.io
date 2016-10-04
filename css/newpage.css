@@ -921,6 +921,7 @@ pre {
 }
 .purple, .blue, .yellow{
 	height: 30px;
+	width: 30px;
 	border-radius: 30px;
 }
 .purple{
