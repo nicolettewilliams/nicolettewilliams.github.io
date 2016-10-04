@@ -18,14 +18,14 @@
 		$(document).ready(function(){
 			$('.dropdown-toggle').dropdown();
 
-			// $('#iconified').on('keyup', function() {
-			//     var input = $(this);
-			//     if(input.val().length === 0) {
-			//         input.addClass('empty');
-			//     } else {
-			//         input.removeClass('empty');
-			//     }
-			// });
+			$('#iconified').on('keyup', function() {
+			    var input = $(this);
+			    if(input.val().length === 0) {
+			        input.addClass('empty');
+			    } else {
+			        input.removeClass('empty');
+			    }
+			});
 	  //       var newHeight = $("#bigPicRow").height() - $('#newbImg').height();
 
 	  //       $(".pink").height(newHeight);
