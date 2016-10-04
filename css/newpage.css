@@ -192,13 +192,7 @@ input.empty:focus{
 		display: none;
 	}
 	.home{
-		padding: 100px 0 0 0 !important;
-	}
-	.insetrow{
-		display: none;
-	}
-	.mobileInsetRow{
-		display: inline-block;
+		padding: 0 !important;
 	}
 }
 .w100{
