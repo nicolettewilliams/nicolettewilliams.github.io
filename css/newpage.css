@@ -182,6 +182,14 @@ input.empty:focus{
 .mobileInsetRow{
 	display: none;
 }
+@media (max-width: 991px){
+	.home{
+		padding: 100px 0 0 0 !important;
+	}
+	.owlImage{
+		height: 400px;
+	}
+}
 @media (max-width: 1000px){
 	.desktopNav{
 		display: none;
@@ -191,12 +199,6 @@ input.empty:focus{
 	}
 	.waterfall-img{
 		display: none;
-	}
-	.home{
-		padding: 100px 0 0 0 !important;
-	}
-	.owlImage{
-		height: 400px;
 	}
 }
 .w100{
