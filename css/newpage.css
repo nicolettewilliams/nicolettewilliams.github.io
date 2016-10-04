@@ -177,9 +177,6 @@ input.empty:focus{
 	.mobileNav{
 		display: block;
 	}
-	.home{
-		display: none;
-	}
 	.waterfall-img{
 		display: none;
 	}
