@@ -198,6 +198,12 @@ input.empty:focus{
 	.owlImage{
 		height: 400px;
 	}
+	.insetrow{
+		height: 400px;
+	}
+	.mobileInsetRow{
+		display: inline-block;
+	}
 }
 .w100{
 	width: 100%;
