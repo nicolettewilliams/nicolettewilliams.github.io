@@ -13,63 +13,6 @@
 	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 		<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript">
-
-		$(document).ready(function(){
-			$('.dropdown-toggle').dropdown();
-
-			$('#iconified').on('keyup', function() {
-			    var input = $(this);
-			    if(input.val().length === 0) {
-			        input.addClass('empty');
-			    } else {
-			        input.removeClass('empty');
-			    }
-			});
-	  //       var newHeight = $("#bigPicRow").height() - $('#newbImg').height();
-
-	  //       $(".pink").height(newHeight);
-	  //       $(".orange").height(newHeight);
-
-	        
-
-			var sideslider = $('[data-toggle=collapse-side]');
-            var sel = sideslider.attr('data-target');
-            var sel2 = sideslider.attr('data-target-2');
-            sideslider.click(function(event){
-                $(sel).toggleClass('in');
-                $(sel2).toggleClass('out');
-            });
-			
-            $(function(){
-
-				$(window).bind("resize",function(){
-				    if($(this).width() <1000){
-				    	$('#padding').removeClass('h100');
-				    	$('#bigPicRow').removeClass('bigpicrow');
-				    }
-				    else{
-				    	$('#padding').addClass('h100');
-				    	$('#bigPicRow').addClass('bigpicrow');
-
-				    	$( "#1" ).hover(function() {
-				        	$("#favBook1").toggleClass('favoriteBookTitle');
-				        	$('.add-to-cart').toggleClass("hiddenAddToCart1");
-						});
-						$( "#2" ).hover(function() {
-							$("#favBook2").toggleClass('favoriteBookTitle');
-				        	$('.add-to-cart').toggleClass("hiddenAddToCart2");
-						});
-						$( "#3" ).hover(function() {
-							$("#favBook3").toggleClass('favoriteBookTitle');
-				        	$('.add-to-cart').toggleClass("hiddenAddToCart3");
-						});
-				    }
-				});
-			});
-			
-		});
-	</script>
 	
 </head>
 <body>
@@ -465,7 +408,57 @@
 	</div>
 </div>
 
+<script type="text/javascript">
 
+		$(document).ready(function(){
+			$('.dropdown-toggle').dropdown();
+
+			$('#iconified').on('keyup', function() {
+			    var input = $(this);
+			    if(input.val().length === 0) {
+			        input.addClass('empty');
+			    } else {
+			        input.removeClass('empty');
+			    }
+			});	        
+
+			var sideslider = $('[data-toggle=collapse-side]');
+            var sel = sideslider.attr('data-target');
+            var sel2 = sideslider.attr('data-target-2');
+            sideslider.click(function(event){
+                $(sel).toggleClass('in');
+                $(sel2).toggleClass('out');
+            });
+			
+            $(function(){
+
+				$(window).bind("resize",function(){
+				    if($(this).width() <1000){
+				    	$('#padding').removeClass('h100');
+				    	$('#bigPicRow').removeClass('bigpicrow');
+				    }
+				    else{
+				    	$('#padding').addClass('h100');
+				    	$('#bigPicRow').addClass('bigpicrow');
+
+				    	$( "#1" ).hover(function() {
+				        	$("#favBook1").toggleClass('favoriteBookTitle');
+				        	$('.add-to-cart').toggleClass("hiddenAddToCart1");
+						});
+						$( "#2" ).hover(function() {
+							$("#favBook2").toggleClass('favoriteBookTitle');
+				        	$('.add-to-cart').toggleClass("hiddenAddToCart2");
+						});
+						$( "#3" ).hover(function() {
+							$("#favBook3").toggleClass('favoriteBookTitle');
+				        	$('.add-to-cart').toggleClass("hiddenAddToCart3");
+						});
+				    }
+				});
+			});
+			
+		});
+	</script>
 </body>
 </html>
 
