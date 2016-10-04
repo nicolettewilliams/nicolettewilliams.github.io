@@ -180,6 +180,9 @@ input.empty:focus{
 	.waterfall-img{
 		display: none;
 	}
+	.home{
+		padding: 0px;
+	}
 }
 /*=================================================*/
 .w100{
