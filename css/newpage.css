@@ -206,6 +206,9 @@ input.empty:focus{
 		display: block;
 		height: 400px;
 	}
+	.orangediv{
+		height: 400px;
+	}
 }
 .w100{
 	width: 100%;
