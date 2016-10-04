@@ -923,13 +923,14 @@ pre {
 	height: 30px;
 	width: 30px;
 	border-radius: 30px;
+	font-size: 40px;
 }
 .purple{
-	background-color: purple;
+	color: purple;
 }
 .blue{
-	background-color: blue;
+	color: blue;
 }
 .yellow{
-	background-color: yellow;
+	color: yellow;
 }
