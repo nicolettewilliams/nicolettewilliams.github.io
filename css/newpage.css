@@ -919,18 +919,7 @@ pre {
 .vervine{
 	font-family: "verveine";
 }
-.purple, .blue, .yellow{
-	height: 30px;
-	width: 30px;
-	border-radius: 30px;
-	font-size: 40px;
-}
-.purple{
-	color: purple;
-}
-.blue{
-	color: blue;
-}
-.yellow{
-	color: yellow;
+.scribble{
+	height: 40px;
+	width: 40px;
 }
