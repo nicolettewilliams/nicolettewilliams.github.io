@@ -900,6 +900,10 @@ pre {
 	margin: 15px 0;
 	width: 100%;
 }
+.navbar-nav{
+	margin: 15px 0 !important;
+	width: 100% !important;
+}
 .asseenonimg{
 	padding-bottom: 60px;
 }
