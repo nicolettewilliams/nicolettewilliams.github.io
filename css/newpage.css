@@ -141,7 +141,6 @@ li{
 .featuredproduct{
 	width: 300px;
 }
-
 .block{
 	display: block !important;
 }
@@ -901,6 +900,10 @@ pre {
 .mobileNavbar-nav{
 	margin: 15px 0 !important;
 	width: 100% !important;
+}
+.mobileNavDropdown{
+	font-size: 20px;
+	font-family: 'Quattrocento Sans', sans-serif;
 }
 .asseenonimg{
 	padding-bottom: 60px;
