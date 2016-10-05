@@ -924,6 +924,7 @@ pre {
 	font-family: "verveine";
 	padding-left: 20px;
 	padding-right: 20px;
+	display: inline !important;
 }
 .scribble{
 	height: 30px;
