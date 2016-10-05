@@ -861,6 +861,9 @@ pre {
 	border: 0px;
 	box-shadow: none;
 }
+.navbar-collapse{
+	padding: 0 !important;
+}
 .mobile25{
 	padding-top: 40px;
 	color: #FFF;
@@ -894,6 +897,8 @@ pre {
 }
 .navbar-nav>li>a{
 	padding-left: 20px;
+	margin: 15px 0;
+	width: 100%;
 }
 .asseenonimg{
 	padding-bottom: 60px;
