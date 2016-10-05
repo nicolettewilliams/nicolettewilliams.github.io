@@ -1,21 +1,6 @@
-/* body:before will also work
- as will body:after */
-:root:before {
-  content: url(../img/bestsellers.png)
-           url(../img/blue.png)
-           url(../img/ColoringImages32@2x.png)
-           url(../img/Credentials.png)
-           url(../img/Group 10@2x.png)
-           url(../img/Group 13@2x.png)
-           url(../img/newest-books.png)
-           url(../img/pink.png)
-           url(../img/purple.png)
-           url(../img/StressRelievingAnimalDesigns.png);
-  /* partial fallback */
-  visibility: hidden;
-  position: absolute;
-  left: -999em;
-}
+#preload-01 { background: url(../img/bestsellers.png) no-repeat -9999px -9999px; }
+#preload-02 { background: url(../img/blue.png) no-repeat -9999px -9999px; }
+#preload-03 { background: url(../img/ColoringImages32@2x.png) no-repeat -9999px -9999px; }
 
 
 body{
