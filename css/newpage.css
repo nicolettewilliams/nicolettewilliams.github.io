@@ -897,10 +897,8 @@ pre {
 }
 .navbar-nav>li>a{
 	padding-left: 20px;
-	margin: 15px 0;
-	width: 100%;
 }
-.navbar-nav{
+.mobileNavbar-nav{
 	margin: 15px 0 !important;
 	width: 100% !important;
 }
