@@ -521,7 +521,7 @@ input.empty:focus{
 	margin-right: 10%;
 }
 .favoriteBookTitle{
-	padding-top: 30px;
+	padding-top: 4.6rem;
 }
 .bookPrice, .bookPrice:hover{
 	font-family: "filson-soft", sans-serif;
@@ -893,7 +893,7 @@ pre {
 	padding-bottom: 60px;
 }
 .animaldesigns{
-	background-image: url(../img/featuredproduct.jpg);
+	background-image: url(../img/StressRelievingAnimalDesigns.jpg);
 	background-size: 100% 100%;
 }
 .row600{
