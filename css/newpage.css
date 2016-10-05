@@ -258,7 +258,8 @@ input.empty:focus{
 	height: 100%;
 }
 .greenBoxText{
-	padding-left: 70px;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 .pageTitle{
 	color: #FFF;
@@ -732,7 +733,7 @@ button:hover{
 
 @media (max-width: 500px){
 	.greenBoxText{
-		padding-right: 40px;
+		padding-right: 40px !important;
 	}
 	.inspiretext{
 		padding-right: 40px;
@@ -743,8 +744,8 @@ button:hover{
 }
 @media (max-width: 460px){
 	.greenBoxText{
-		padding-left: 30px;
-		padding-right: 40px;
+		padding-left: 30px !important;
+		padding-right: 40px !important;
 	}
 	.greenBlueButton{
 		margin-bottom: 30px;
