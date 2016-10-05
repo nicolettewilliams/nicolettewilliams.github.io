@@ -1,3 +1,23 @@
+/* body:before will also work
+ as will body:after */
+:root:before {
+  content: url(../img/bestsellers.png)
+           url(../img/blue.png)
+           url(../img/ColoringImages32@2x.png)
+           url(../img/Credentials.png)
+           url(../img/Group 10@2x.png)
+           url(../img/Group 13@2x.png)
+           url(../img/newest-books.png)
+           url(../img/pink.png)
+           url(../img/purple.png)
+           url(../img/StressRelievingAnimalDesigns.png);
+  /* partial fallback */
+  visibility: hidden;
+  position: absolute;
+  left: -999em;
+}
+
+
 body{
 	font-family: 'Quattrocento Sans', sans-serif;
 }
