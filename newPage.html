@@ -185,7 +185,7 @@
 			<div class="col-lg-3 col-xs-12 nopm">
 				<div class="insetrow row w100 nopm">
 					<div class="col-md-12 nopm item">
-						<img class="w100 h50 hoverImage" src="../img/Group 13@2x.png">
+						<img class="w100 h50 hoverImage" src="../img/Group13@2x.png">
 					</div>
 					<div class="col-md-12 nopm h100">
 						<div class="orangediv h100">
@@ -213,7 +213,7 @@
 		</div>
 		<div class="row mobileInsetRow nopm">
 			<div class="col-xs-12 col-sm-6 nopm item">
-				<img class="h100 w100" src="../img/Group 13@2x.png">
+				<img class="h100 w100" src="../img/Group13@2x.png">
 			</div>
 			<div class="col-xs-12 col-sm-6 nopm" style="display:table;">
 				<div class="orangediv w100" style="display: table-cell; vertical-align: middle;">
@@ -246,7 +246,7 @@
 					<img class="newb w100" src="../img/bestsellers.png">
 				</div>
 				<div id="animalImg" class="col-xs-12 col-md-6 col-sm-6 item nopm">
-					<img class="animal w100" src="../img/newest-books.png">
+					<img class="animal w100" src="../img/newestbooks.png">
 				</div>
 			</div>
 			<div class="row nopm">
@@ -263,7 +263,7 @@
 			</div>
 		</div>
 		<div class="col-md-5 nopm waterfall-img row600 item">
-			<img class="w100 h100" src="../img/Group 10@2x.png">
+			<img class="w100 h100" src="../img/Group10@2x.png">
 		</div>
 	</div>
 	<div class="row pt50 favoriteBookRow">
@@ -473,6 +473,20 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript">
 
+	function preloadImage(url){
+    	var img=new Image();
+    	img.src=url(../img/bestsellers.png);
+    	img.src=url(../img/blue.png);
+    	img.src=url(../img/ColoringImages32@2x.png);
+    	img.src=url(../img/Credentials.png);
+    	img.src=url(../img/Group10@2x.png);
+    	img.src=url(../img/Group13@2x.png);
+    	img.src=url(../img/newestbooks.png);
+    	img.src=url(../img/pink.png);
+    	img.src=url(../img/purple.png);
+    	img.src=url(../img/StressRelievingAnimalDesigns.png);
+	};
+
 		$(document).ready(function(){
 			$('.dropdown-toggle').dropdown();
 
@@ -533,4 +547,3 @@
 
 
 
-            
