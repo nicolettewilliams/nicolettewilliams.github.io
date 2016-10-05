@@ -932,11 +932,11 @@ pre {
     right: 20%;
     width: 60%;
     height: 75px;
+    padding-left: 20px;
+	padding-right: 20px;
 }
 .vervine{
 	font-family: "verveine";
-	padding-left: 20px;
-	padding-right: 20px;
 	display: inline !important;
 }
 .scribble{
