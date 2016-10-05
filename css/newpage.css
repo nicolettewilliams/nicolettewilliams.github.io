@@ -176,6 +176,7 @@ input.empty:focus{
 	background-size: 100% 100%;
 	height: 100%;
 	text-align: center;
+	position: relative;
 }
 .insetrow{
 	height: 500px;
@@ -916,9 +917,11 @@ pre {
 .whiteBlock{
 	height: 75px;
 	background-color: #FFF;
-	width: 60%;
-	margin-top: 45%;
-	margin-left: 18%;
+	position: absolute;
+    bottom: 30px;
+    right: 20%;
+    width: 60%;
+    height: 75px;
 }
 .vervine{
 	font-family: "verveine";
