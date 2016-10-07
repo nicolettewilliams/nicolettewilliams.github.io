@@ -480,68 +480,52 @@
 		<!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript">
+	$(document).ready(function(){
+		$('.dropdown-toggle').dropdown();
 
-	// function preloadImage(url){
- //    	var img=new Image();
- //    	img.src=url(../img/bestsellers.png);
- //    	img.src=url(../img/blue.png);
- //    	img.src=url(../img/ColoringImages32@2x.png);
- //    	img.src=url(../img/Credentials.png);
- //    	img.src=url(../img/Group10@2x.png);
- //    	img.src=url(../img/Group13@2x.png);
- //    	img.src=url(../img/newestbooks.png);
- //    	img.src=url(../img/pink.png);
- //    	img.src=url(../img/purple.png);
- //    	img.src=url(../img/StressRelievingAnimalDesigns.png);
-	// };
+		$('#iconified').on('keyup', function() {
+		    var input = $(this);
+		    if(input.val().length === 0) {
+		        input.addClass('empty');
+		    } else {
+		        input.removeClass('empty');
+		    }
+		});	        
 
-		$(document).ready(function(){
-			$('.dropdown-toggle').dropdown();
+		var sideslider = $('[data-toggle=collapse-side]');
+        var sel = sideslider.attr('data-target');
+        var sel2 = sideslider.attr('data-target-2');
+        sideslider.click(function(event){
+            $(sel).toggleClass('in');
+            $(sel2).toggleClass('out');
+        });
+		
+        $(function(){
 
-			$('#iconified').on('keyup', function() {
-			    var input = $(this);
-			    if(input.val().length === 0) {
-			        input.addClass('empty');
-			    } else {
-			        input.removeClass('empty');
-			    }
-			});	        
+		    if(window.innerWidth <1000){
+		    	$('#padding').removeClass('h100');
+		    	$('#bigPicRow').removeClass('bigpicrow');
+		    }
+		    else{
+		    	$('#padding').addClass('h100');
+		    	$('#bigPicRow').addClass('bigpicrow');
+		    }
 
-			var sideslider = $('[data-toggle=collapse-side]');
-            var sel = sideslider.attr('data-target');
-            var sel2 = sideslider.attr('data-target-2');
-            sideslider.click(function(event){
-                $(sel).toggleClass('in');
-                $(sel2).toggleClass('out');
-            });
-			
-            $(function(){
-
-			    if(window.innerWidth <1000){
-			    	$('#padding').removeClass('h100');
-			    	$('#bigPicRow').removeClass('bigpicrow');
-			    }
-			    else{
-			    	$('#padding').addClass('h100');
-			    	$('#bigPicRow').addClass('bigpicrow');
-			    }
-
-		    	$( "#1" ).hover(function() {
-		        	$("#favBook1").toggle(300);
-		        	$('.add-to-cart').toggleClass("hiddenAddToCart1" , 1000, "swing");
-				});
-				$( "#2" ).hover(function() {
-					$("#favBook2").toggle(300);
-		        	$('.add-to-cart').toggleClass("hiddenAddToCart2");
-				});
-				$( "#3" ).hover(function() {
-					$("#favBook3").toggle(300);
-		        	$('.add-to-cart').toggleClass("hiddenAddToCart3");
-				});
+	    	$( "#1" ).hover(function() {
+	        	$("#favBook1").toggle(300);
+	        	$('.add-to-cart').toggleClass("hiddenAddToCart1" , 1000, "swing");
 			});
-			
+			$( "#2" ).hover(function() {
+				$("#favBook2").toggle(300);
+	        	$('.add-to-cart').toggleClass("hiddenAddToCart2");
+			});
+			$( "#3" ).hover(function() {
+				$("#favBook3").toggle(300);
+	        	$('.add-to-cart').toggleClass("hiddenAddToCart3");
+			});
 		});
-	</script>
+	});
+</script>
 </body>
 </html>
 
