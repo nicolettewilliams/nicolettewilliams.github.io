@@ -18,11 +18,11 @@
 	<div class="row social-nav">
 		<div class="col-md-4 nopm">
 			<div class="social-icons">
-				<i class="fa fa-facebook" aria-hidden="true"></i>
-				<i class="fa fa-twitter" aria-hidden="true"></i>
-				<i class="fa fa-youtube" aria-hidden="true"></i>
-				<i class="fa fa-pinterest-p" aria-hidden="true"></i>
-				<i class="fa fa-instagram" aria-hidden="true"></i>
+				<i class="fa fa-facebook socialNav" aria-hidden="true"></i>
+				<i class="fa fa-twitter socialNav" aria-hidden="true"></i>
+				<i class="fa fa-youtube socialNav" aria-hidden="true"></i>
+				<i class="fa fa-pinterest-p socialNav" aria-hidden="true"></i>
+				<i class="fa fa-instagram socialNav" aria-hidden="true"></i>
 				<span class="white-text contact">CONTACT</span>
 				<span class="white-text">PRESS</span>
 			</div>
@@ -34,7 +34,7 @@
 			<div class="account-btn right account-text">
 				MY ACCOUNT
 				<span class="caret"></span>
-				<i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="white-text">2 ITEMS</span> 
+				<i class="fa fa-shopping-cart socialNav" aria-hidden="true"></i> <span class="white-text">2 ITEMS</span> 
 			</div>
 		</div>
 	</div>
@@ -91,12 +91,11 @@
 			      			</div>
 				    	</li>
 			    		<li><a class="nav-links" href="#">CUSTOMIZATION</a></li>
-			    		<li><a class="nav-links" href="#">ACCESSORIES</a></li>
 			    		<li><a class="nav-links" href="#">INSPIRE</a></li>
 			  		</ul>
 				</div>
 				<p class="navbar-right searchbar-padding">
-      				<input type="text" class="form-control empty" id="iconified" placeholder="&#xF002; Search by book, product or artist" onfocus="this.placeholder = ''" onblur="this.placeholder = '&#xF002; Search by book, product or artist'"/>
+      				<input type="text" class="form-control empty" id="iconified" placeholder="&#xF002; Search by book, product or artist" onfocus="this.placeholder = ''" onblur="this.placeholder = '&#xF002;Search by book, product or artist'"/>
     				<button class="btn searchbtn" type="button">Go!</button>
     			</p>
 	    	</div>
@@ -191,7 +190,7 @@
 						<div class="orangediv h100">
 							<p class="f16">This artwork is from our book</p>
 							<p class="pageTitle">Stress Relieving Patterns</p>
-							<button class="btn transparentbtn">QUICK VIEW</button>
+							<button class="firstOrange button button--winona button--border-thick button--round-l button--text-upper button--size-m button--text-thick" data-text="QUICK VIEW"><span>QUICK VIEW</span></button>
 						</div>
 					</div>
 				</div>
@@ -219,22 +218,22 @@
 				<div class="orangediv w100" style="display: table-cell; vertical-align: middle;">
 					<p class="f16">This artwork is from our book</p>
 					<p class="pageTitle">Stress Relieving Patterns</p>
-					<button class="btn transparentbtn">QUICK VIEW</button>
+					<button class="button button--winona button--border-thick button--round-l button--text-upper button--size-m button--text-thick" data-text="QUICK VIEW"><span>QUICK VIEW</span></button>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="row pt75 bigpicrow">
-			<div class="col-md-7 col-xs-12 nopm bigpicrow item">
-				<img class="h100 w100" src="../img/StressRelievingAnimalDesigns.png">
-			</div>
+		<div class="col-md-7 col-xs-12 nopm bigpicrow item">
+			<img class="h100 w100" src="../img/StressRelievingAnimalDesigns.png">
+		</div>
 		<div class="col-md-5 col-xs-12 nopm green bigpicrow" style="display: table;">
 			<div class="greenBoxText" style="display: table-cell; vertical-align: middle;">
-				<p class="pageTitle">Stress Relieving <br> Animal Designs</p>
-				<p class="descriptiontext">Connect with nature and color yourself calm with this creative world of animals from all  around the globe</p>
+				<p class="pageTitle f36">Stress Relieving <br> Animal Designs</p>
+				<p class="descriptiontext">Connect with nature and color yourself calm with this creative world of animals from all  around the globe.</p>
 				<div class="buttons">
-					<button class="btn bluebtn greenBlueButton"><i class="fa fa-shopping-cart" aria-hidden="true"></i> ADD TO CART</button>
-					<button class="btn transparentbtn greenBlueButton"> QUICK VIEW</button>
+					<button class="button bluebtn button--winona button--border-thick button--round-l button--text-upper button--size-m button--text-thick" data-text="ADD TO CART"><span><i class="fa fa-shopping-cart" aria-hidden="true"></i> ADD TO CART</span></button>
+					<button class="button button--winona button--border-thick button--round-l button--text-upper button--size-m button--text-thick" data-text="QUICK VIEW"><span>QUICK VIEW</span></button>
 				</div>
 			</div>
 		</div>
@@ -268,13 +267,13 @@
 	</div>
 	<div class="row pt50 favoriteBookRow">
 		<div class="pt150">
-			<p class="title titleMobile">Our Favorites</p>
+			<p class="title titleMobile f46">Our Favorites</p>
 			<div class="col-md-4 col-xs-12 nopm" id="1">
 				<a class="noHoverDeco" href="#">
 					<img class="fav" src="../img/takeahike.jpg">
-		            <div class="fav1"></div>
-		            <p id="favBook1" class="bookTitle black favoriteBookTitle">Book Title</p>
-		            <p class="f16 black">SUBTITLE TEXT HERE</p>
+		            <div id="favBook1"></div>
+		            <p class="bookTitle black">Book Title</p>
+		            <p class="f16 catText">CATEGORY</p>
 		            <p class="f32 black">$14.99</p>
 		        </a>
 	            <div class="add-to-cart hiddenAddToCart1">
@@ -290,8 +289,9 @@
 			<div class="col-md-4 col-xs-12 nopm" id="2">
 				<a class="noHoverDeco" href="#">
 					<img class="fav" src="../img/takeahike.jpg">
-		            <p id="favBook2" class="bookTitle black favoriteBookTitle">Book Title</p>
-		            <p class="f16 black">SUBTITLE TEXT HERE</p>
+					<div id="favBook2"></div>
+		            <p class="bookTitle black">Book Title</p>
+		            <p class="f16 catText">CATEGORY</p>
 		            <p class="f32 black">$14.99</p>
 		        </a>
 	            <div class="add-to-cart hiddenAddToCart2">
@@ -307,8 +307,9 @@
 			<div class="col-md-4 col-xs-12 nopm" id="3">
 				<a class="noHoverDeco" href="#">
 					<img class="fav" src="../img/takeahike.jpg">
-		            <p id="favBook3" class="bookTitle black favoriteBookTitle">Book Title</p>
-		            <p class="f16 black">SUBTITLE TEXT HERE</p>
+					<div id="favBook3"></div>
+		            <p class="bookTitle black">Book Title</p>
+		            <p class="f16 catText">CATEGORY</p>
 		            <p class="f32 black">$14.99</p>
 		        </a>
 	            <div class="add-to-cart hiddenAddToCart3">
@@ -325,21 +326,25 @@
 	</div>
 	<div class="row">
 		<div class="col-md-12 center">
-			<button class="btn orangebtn">These and More!</button>
+			<button class="orangebtn button button--winona button--border-thick button--round-l button--text-upper button--size-l button--text-thick" data-text="These and More!"><span>These and More!</span></button>
 		</div>
 	</div>
 	<div class="row pt75">
 		<div class="col-lg-6 col-xs-12 bluerec" style="display:table;">
 			<div class="inspiretext" style="display:table-cell; vertical-align:middle;">
-				<p class="pageTitle">Blue Star Inspire</p>
+				<p class="pageTitle f46">Blue Star Inspire</p>
 				<p class="lightbluetext">Color anywhere. Cancel anytime.</p>
 				<p class="f22" style="color:#FFF;">Stay inspired with unlimited access to our entire library of <br>handcrafted coloring images.</p>
-				<button class="btn pinkbtn">Join Free For a Month</button>
+				<button class="pinkbtn button button--winona button--border-thick button--round-l button--text-upper button--size-m button--text-thick" data-text="Join Free For a Month"><span>Join Free For a Month</span></button>
 			</div>
 		</div>
 		<div class="col-lg-6 col-xs-12 biggreenbox" style="display:table;">
 			<div class="artisttext" style="display:table-cell; vertical-align:middle;">
-				<p class="artistName"><img class="img-circle" src="../img/headshot.jpg"> Roger Bruner <button class="btn transparentbtn artistbtn">Shop This Artist</button></p>
+				<p class="artistName">
+					<img class="img-circle" src="../img/headshot.jpg"> 
+					Roger Bruner
+					<button class=" artistbtn button button--winona button--border-thick button--round-l button--text-upper button--size-m button--text-thick" data-text="Shop This Artist"><span>Shop This Artist</span></button>
+				</p>
 				<div class="center">
 					<div class="col-xs-4">
 			            <a class="center" href="#"><img class="artist-book" src="../img/takeahike.jpg"></a>
@@ -429,10 +434,13 @@
 	<div class="row pt100">
 		<div class="col-md-12 col-xs-12 orangegrad" style="display:table;">
 			<div class="blogText" style="display:table-cell; vertical-align:middle;">
-				<p class="f22 fromBlog">FROM THE BLOG</p>
-				<p class="f46">Blog Entry Title</p>
-				<p class="f22">We're up for an adventure. Learn how you can join.</p>
-				<button class="btn orangebtn">Read Story</button>
+				<p class="f22 fromBlog">LET'S WORK TOGETHER</p>
+				<p class="f46">Create Your Custom Coloring Book</p>
+				<p class="f22 workTogetherText">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur.</p>
+				<button class="orangebtn button button--winona button--border-thick button--round-l button--text-upper button--size-l button--text-thick" data-text="Learn More"><span>Learn More</span></button>
 			</div>
 		</div>
 	</div>
@@ -509,28 +517,27 @@
 			
             $(function(){
 
-				$(window).bind("resize",function(){
-				    if($(this).width() <1000){
-				    	$('#padding').removeClass('h100');
-				    	$('#bigPicRow').removeClass('bigpicrow');
-				    }
-				    else{
-				    	$('#padding').addClass('h100');
-				    	$('#bigPicRow').addClass('bigpicrow');
-				    }
+			    if(window.innerWidth <1000){
+			    	$('#padding').removeClass('h100');
+			    	$('#bigPicRow').removeClass('bigpicrow');
+			    }
+			    else{
+			    	$('#padding').addClass('h100');
+			    	$('#bigPicRow').addClass('bigpicrow');
+			    }
+
+		    	$( "#1" ).hover(function() {
+		        	$("#favBook1").toggle(300);
+		        	$('.add-to-cart').toggleClass("hiddenAddToCart1" , 1000, "swing");
 				});
-				$( "#1" ).hover(function() {
-				        	$("#favBook1").toggleClass('favoriteBookTitle');
-				        	$('.add-to-cart').toggleClass("hiddenAddToCart1");
-						});
-						$( "#2" ).hover(function() {
-							$("#favBook2").toggleClass('favoriteBookTitle');
-				        	$('.add-to-cart').toggleClass("hiddenAddToCart2");
-						});
-						$( "#3" ).hover(function() {
-							$("#favBook3").toggleClass('favoriteBookTitle');
-				        	$('.add-to-cart').toggleClass("hiddenAddToCart3");
-						});
+				$( "#2" ).hover(function() {
+					$("#favBook2").toggle(300);
+		        	$('.add-to-cart').toggleClass("hiddenAddToCart2");
+				});
+				$( "#3" ).hover(function() {
+					$("#favBook3").toggle(300);
+		        	$('.add-to-cart').toggleClass("hiddenAddToCart3");
+				});
 			});
 			
 		});
