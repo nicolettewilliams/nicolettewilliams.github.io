@@ -1,5 +1,6 @@
 body {
-    background-image: url(/img/park.jpg);
+    background-image: url(/img/park.jpg) no-repeat center center fixed;
+    background-size: cover;
     text-align: center;
     cursor: url(/img/hands.png), auto;    
     overflow: hidden;

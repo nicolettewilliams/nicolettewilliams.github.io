@@ -472,7 +472,7 @@ input.empty:focus{
 .orangebtn{
 	background-color: #FF9D29;
 	margin-top: 5rem;
-	border:0 !important;
+	border:3px solid #FF9D29 !important;
 	-o-trasition:background .3s ease-out;
 	-ms-trasition:background .3s ease-out;
 	-moz-transition:background .3s ease-out;
@@ -481,6 +481,7 @@ input.empty:focus{
 }
 .orangebtn:hover{
 	background-color: #FF7400;
+	border: 3px solid #FF7400;
 }
 .orangebtn:active, .orangebtn:focus{
 	background-color: #ff2a00;

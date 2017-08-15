@@ -37,7 +37,7 @@ $(document).ready(function() {
                 });
             };
 
-            // puts the counddown in the body
+            // puts the countdown in the body
             $('#countDown').html(' ' + gameOverTimer + ' seconds...');
             gameOverTimer--;
         }, 1000);
